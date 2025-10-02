@@ -42,3 +42,7 @@ class NoteDetailAPIView(APIView):
         note = get_object_or_404(Note, pk=pk)
         note.delete()
         return Response(status=status.HTTP_204_NO_CONTENT)
+
+
+
+
