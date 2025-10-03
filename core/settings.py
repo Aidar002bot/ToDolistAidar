@@ -41,6 +41,8 @@ INSTALLED_APPS = [
     'task',
     'note',
     'news',
+    'contact',
+    'videos',
 ]
 
 MIDDLEWARE = [
